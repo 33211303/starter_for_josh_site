@@ -107,7 +107,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .article-title{
-    font-size:2.5em;
+    font-size:2.em;
     font-family: 'Raleway', sans-serif;
     font-weight:800;
     color:purple;
@@ -138,9 +138,8 @@ h4{
 footer{
     background-image: url(images/footer.jpg);
     background-size: cover;
+    background-position: center;
     width:100%
-        background-position:center center;
-    
 }
 
 .footer-content{
