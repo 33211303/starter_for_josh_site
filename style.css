@@ -52,6 +52,14 @@ a:hover{
     padding-bottom:10%;
     
 }
+.colouro{
+    color: orange
+}
+
+.colourp{
+color: purple
+  
+}
 
 .aboutbg{
     background-color:lightgray;
@@ -59,7 +67,7 @@ a:hover{
 }
 
 .aboutbg h2{
-    font-size: 2.4em;
+    font-size: 3em;
     font-family: 'Raleway', sans-serif;
     font-weight:800;
      
@@ -85,8 +93,8 @@ font-family: 'Raleway', sans-serif;
 }
 
 .blocker{
-     width:140px;
-    height:10px;
+     width:160px;
+    height:5px;
     background-color:purple;
     margin:auto;
     margin-bottom: 40px;
@@ -99,20 +107,22 @@ font-family: 'Raleway', sans-serif;
 }
 
 .article-title{
-    font-size:2.0em;
+    font-size:2.5em;
     font-family: 'Raleway', sans-serif;
     font-weight:800;
-    color:#3c1f68;
+    color:purple;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
  
 h4{
-    font-size: 6em;
+    font-size: 1.6em;
     font-family: 'Raleway', sans-serif;
     font-weight:400;
 }
 
 .date{
-    font-size:8em;
+    font-size:0.8em;
     letter-spacing: 1px;
     
 }
