@@ -13,8 +13,8 @@
 		<h3 class="posttitle" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
 
 		<div class="postcontent">
-			<?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
-			<?php the_content(); ?>
+<?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
+<?php the_content(); ?>
 		</div><!--postcomtet-->
 						
 		<div class="content-band">
@@ -26,7 +26,7 @@
     <div class="related-template">
 	<h3>RELATED POSTS</h3>
 	<ul class="rel-list">
-		<?php
+<?php
 		$backup = $post; //Backup current post object
 		$current = $post->ID;  //get current post id 
 								
@@ -49,7 +49,7 @@
 			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
 			<span class="related-posts-date"><?php the_time('F jS, Y'); ?></span>
 		</li>
-		<?php endforeach;
+<?php endforeach;
 								
 		$post = $backup; //restore current post object
 		wp_reset_query();
@@ -59,15 +59,15 @@
 
 	
     <div class="comments-template">
-			<?php comments_template(); ?>
+<?php comments_template(); ?>
 		</div>
 		
-	<?php endwhile; ?>
-	<?php else: ?>
+<?php endwhile; ?>
+<?php else: ?>
 	<div class="post">
 		<p>Sorry, no posts found.</p>
 	</div><!--post-->
-	<?php endif; ?>
+<?php endif; ?>
 </article>
 </section>
 
