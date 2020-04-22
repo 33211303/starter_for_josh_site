@@ -17,11 +17,11 @@ wp_reset_query();?>
  <div class="blocker"></div>
     </div><!--  container-->
 </section>
-<section class="container-fluid ">
+<section class="container-fluid articlebg ">
     <div class="container">
         <div class="row">
             <!--  a row that gives us access to the BS columns-->
-            <div class="article-title text-center">
+            <div class="text-center article-title">
                 <h3>LATEST ARTICLES</h3>
             </div>
             <div class="col-md-4 article-cent">
