@@ -27,7 +27,6 @@
 ?>
     </title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,8 +34,6 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/responsive.css" />
     <?php wp_head(); ?> <!—very important that this is added-->
 </head>
 
