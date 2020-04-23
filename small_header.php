@@ -1,4 +1,3 @@
-<?php include (TEMPLATEPATH . '/small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
