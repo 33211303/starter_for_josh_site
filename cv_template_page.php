@@ -1,7 +1,7 @@
 <?php
-/*
-Template Name: cv
-*/
+    /*
+    Template Name: CV
+    */
 ?>
 <?php include (TEMPLATEPATH . '/small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 <div class="container-fluid maincontainer">
@@ -17,7 +17,7 @@ Template Name: cv
 
 		<div class="postcontent">
 <?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
-			<?php the_content(); ?>
+<?php the_content(); ?>
 <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong>', 'after' => '</p>')); ?>
         </div><!--postcontet-->
 		
@@ -33,7 +33,7 @@ Template Name: cv
 <?php endif; ?>
 	</article><!---->
 </section>
-           
+            
      </div>
     </div>
   </div>
