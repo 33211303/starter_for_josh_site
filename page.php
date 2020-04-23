@@ -5,7 +5,7 @@
             <section class="col-sm-7 maintext">				
     <article class="excerpts"><!----> <!--we can reuse the css on the old article to restyle the new dynamic posts-->
 	
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 <div class="post single-page">
 		<h3 class="posttitle" id="post-<?php the_ID(); ?>"><?php the_title(); ?></h3>
