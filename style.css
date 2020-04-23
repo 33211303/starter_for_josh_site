@@ -41,17 +41,10 @@ a:hover{
 
 }
 
-herobg{
+.herobg{
     background: url(images/master%20banner.jpg);
     background-size: cover;
 }
-
-.small_herobg{
-    width: 100%;
-    background: url(images/small_header_bg.jpg);
-    background-size: cover;
-    height: 40vh;
-} 
 
 .herobg h1{
     font-family: 'Raleway', sans-serif;
