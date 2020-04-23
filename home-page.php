@@ -19,11 +19,14 @@
     <div class="container">
         <div class="row">
             <!--  a row that gives us access to the BS columns-->
-            <div class="text-center article-title">
-                <h3>LATEST ARTICLES</h3>
+            <div>
+                <h3><?php the_field('titleforarticles'); ?></h3>
             </div>
             <div class="col-md-4 article-cent">
-
+<img class="img-responsive" alt=“portait” src="<?php the_field('articleimage'); ?>">
+<h4><?php the_field('articletitle'); ?></h4>
+<p><?php the_field('articleexcerpt'); ?> </p>
+<a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
                 <!--placeholder for col1-->
             </div>
 
