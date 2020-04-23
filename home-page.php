@@ -21,7 +21,7 @@
         <div class="row">
             <!--  a row that gives us access to the BS columns-->
             <div>
-                <h3><?php the_field('titleforarticles'); ?></h3>
+                <h3 class="text-center article-title"><?php the_field('titleforarticles'); ?></h3>
             </div>
             
             
@@ -36,13 +36,22 @@
             </div>
 
             <div class="col-md-4 article-cent">
+                 <img class="img-responsive" alt=“portait” src="<?php the_field('articleimage1'); ?>">
+<h4><?php the_field('articletitle1'); ?></h4>
+<p><?php the_field('articleexcerpt1'); ?> </p>
+<a href="<?php the_field('readmore1'); ?>" class="readmore">CONTINUE READING</a>
 
                 <!--placeholder for col1-->
 
 
 
             </div>
-            <div class="col-md-4 article-cent">
+           <div class="col-md-4 article-cent">
+                 <img class="img-responsive" alt=“portait” src="<?php the_field('articleimage2'); ?>">
+<h4><?php the_field('articletitle2'); ?></h4>
+<p><?php the_field('articleexcerpt2'); ?> </p>
+<a href="<?php the_field('readmore2'); ?>" class="readmore">CONTINUE READING</a>
+
                 <!--placeholder for col1-->
 
             </div>
