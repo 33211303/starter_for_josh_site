@@ -57,8 +57,7 @@
         'container' => false,
         'list_item_class' => "nav-item",
         'link_class' => "nav-link",
-)); ?>
-</ul>
+)); ?
 
                 </div>
             </div>
