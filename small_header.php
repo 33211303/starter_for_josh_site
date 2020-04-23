@@ -1,3 +1,4 @@
+<?php include (TEMPLATEPATH . '/small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +38,7 @@
 </head>
 
 <body>
-    <header class="container-fluid small_hero_bg">
+    <header class="container-fluid small_herobg">
         <nav class="navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
